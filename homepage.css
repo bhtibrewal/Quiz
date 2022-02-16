@@ -4,29 +4,29 @@
 .categories-sec .card {
   border: none;
   transition: none;
-  transition: transform 1s ease-out;
+  transition: transform .5s ease-out;
 }
 .categories-sec .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /* leader section */
 .leaderboard-sec {
   align-items: stretch;
-  max-width:1000px;
-  margin:auto;
+  max-width: 1000px;
+  margin: auto;
 }
 .section-heading {
   align-self: center;
 }
-.leader-list{
-    gap:2rem;
+.leader-list {
+  gap: 2rem;
 }
-.leader-sec{
-    transition:transform 0.5s ease-out;
+.leader-sec {
+  transition: transform 0.5s ease-out;
 }
-.leader-sec:hover{
- transform:scale(1.05);
+.leader-sec:hover {
+  transform: scale(1.05);
 }
 .leader-sec {
   gap: 2rem;
@@ -38,10 +38,10 @@
 }
 .leader-img {
   height: 7rem;
-  width:7rem;
+  width: 7rem;
 }
 .leader-img img {
-  max-width:100%;
+  max-width: 100%;
   border-radius: 50%;
   border: 1px solid var(--quiz-bg);
 }

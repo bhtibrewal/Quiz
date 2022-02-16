@@ -27,4 +27,3 @@ modeBtn.addEventListener("click", () => {
     }
 }
 )
-console.log(modeBtn)
