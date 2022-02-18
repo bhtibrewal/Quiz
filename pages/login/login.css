@@ -1,0 +1,12 @@
+.form{
+    display:flex;
+    flex-direction:column;
+    max-width: max-content;
+    margin:auto;
+    gap:2rem;
+    border-radius:1rem;
+    padding:5rem;
+    margin-top:2rem;
+    background:var(--light-bg);
+    text-align:center;
+}

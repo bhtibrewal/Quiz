@@ -6,6 +6,11 @@
   --wrong-option: red;
   --right-option: green;
 }
+@media screen and (max-width:300px) {
+  html{
+    font-size:40%;
+  }
+}
 i {
   margin-right: 0.5rem;
 }
@@ -41,6 +46,9 @@ i {
 .right-side {
   gap: 4rem;
 }
+.right-side>*:hover{
+color: var(--primary-color)
+}
 .quiz-main {
   grid-area: main;
   overflow: scroll;
@@ -55,7 +63,13 @@ main::--webkit-scrollbar-thumb {
 .quiz-footer {
   grid-area: footer;
   width: 100%;
-  padding: 4rem;
+  padding: 3rem;
+}
+.social-links{
+  padding:1rem;
+}
+.social-links>*{
+  padding:1rem;
 }
 .flex-col {
   display: flex;
@@ -78,6 +92,13 @@ main::--webkit-scrollbar-thumb {
 .primary {
   color: var(--primary-color);
 }
-.name:hover{
-color:var(--primary-color);
+.heart{
+  color:var(--wrong-option);
+}
+.checkbox-text{
+ margin-left:1rem;
+}
+/* component */
+.btn .btn-center{
+  margin:auto;
 }
