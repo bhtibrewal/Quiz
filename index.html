@@ -11,24 +11,52 @@
   </head>
   <body class="quiz-body">
     <header class="quiz-header flex-align-center">
-      <a href="#"><div class="logo">StarBiz</div></a>
+      <!-- logo -->
+      <a href="#"><h2 class="logo">StarBiz</h2></a>
+      <!-- nav -->
       <div class="right-side flex-align-center">
-        <i class="fab fa-github"></i>
-        <i class="far fa-user"></i>
-        <i class="fas fa-moon mode-btn"></i>
-        <!-- <i class="fas fa-sun"></i> -->
+          <i class="fab fa-github fa-lg"></i>
+          <a title="github" href="/pages/login/login.html"><i class="far fa-user fa-lg"></i></a>
+          <i class="fas fa-cloud-moon fa-lg mode-btn"></i>
       </div>
     </header>
     <main class="quiz-main">
+      <!-- categories section -->
       <section class="section flex-col categories-sec">
         <h1>Categories</h1>
         <!-- grid -->
         <div class="grid-3 categories-grid">
           <!-- card start -->
+            <div class="card w-30 basic">
+              <div class="content">
+                <img
+                  class="card-img"
+                  src="https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(83)(90).jpg"
+                  alt=" the office "
+                />
+
+                <div class="card-header">
+                  <h1>The Office Quiz for true fans</h1>
+
+                  <div class="card-body">
+                    <p>Take this quiz to test yourself</p>
+                    <div class="flex-align-center">
+                      <p>20 Questions</p>
+                      <a class="take-quiz-btn" href="/pages/rules-page/rules-page.html">
+                        <p class="link-text-primary ">
+                          Take Quiz
+                          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </p>
+                      </a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <!-- card start -->
           <div class="card w-30 basic">
-            <button class="icon favourite-icon">
-              <i class="fa-regular fa-heart fa-2x"></i>
-            </button>
             <div class="content">
               <img
                 class="card-img"
@@ -37,11 +65,19 @@
               />
 
               <div class="card-header">
-                <h2>The Office Quiz for true fans</h2>
+                <h1>The Office Quiz for true fans</h1>
 
                 <div class="card-body">
                   <p>Take this quiz to test yourself</p>
-                  <p>20 Questions</p>
+                  <div class="flex-align-center">
+                      <p>20 Questions</p>
+                      <a class="take-quiz-btn" href="/pages/rules-page/rules-page.html">
+                        <p class="link-text-primary ">
+                          Take Quiz
+                          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </p>
+                      </a>
+                    </div>
                 </div>
               </div>
             </div>
@@ -49,9 +85,6 @@
 
           <!-- card start -->
           <div class="card w-30 basic">
-            <button class="icon favourite-icon">
-              <i class="fa-regular fa-heart fa-2x"></i>
-            </button>
             <div class="content">
               <img
                 class="card-img"
@@ -60,40 +93,27 @@
               />
 
               <div class="card-header">
-                <h2>The Office Quiz for true fans</h2>
+                <h1>The Office Quiz for true fans</h1>
 
                 <div class="card-body">
                   <p>Take this quiz to test yourself</p>
-                  <p>20 Questions</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- card start -->
-          <div class="card w-30 basic">
-            <button class="icon favourite-icon">
-              <i class="fa-regular fa-heart fa-2x"></i>
-            </button>
-            <div class="content">
-              <img
-                class="card-img"
-                src="https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(83)(90).jpg"
-                alt=" the office "
-              />
-
-              <div class="card-header">
-                <h2>The Office Quiz for true fans</h2>
-
-                <div class="card-body">
-                  <p>Take this quiz to test yourself</p>
-                  <p>20 Questions</p>
+                  <div class="flex-align-center">
+                      <p>20 Questions</p>
+                      <a class="take-quiz-btn" href="/pages/rules-page/rules-page.html">
+                        <p class="link-text-primary ">
+                          Take Quiz
+                          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </p>
+                      </a>
+                    </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- leaderboard section -->
       <section class="section flex-col leaderboard-sec">
         <h1 class="section-heading">Leaderboard</h1>
         <div class="leader-list">
@@ -127,17 +147,19 @@
           </div>
         </div>
       </section>
-    </main>
-    <!-- <footer class="quiz-footer flex-col">
-        <p>Made with 
-            <i class="fas fa-heart"></i> 
-            by <span class="name">Bhavika Tibrewal</span></p>
-        <div>
-            <i class="fab fa-github"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-linkedin"></i>
+      <footer class="quiz-footer flex-col">
+        <p>
+          Made with
+          <i class="fas fa-heart fa-lg heart"></i>
+          by <span class= link-text-primary">Bhavika Tibrewal</span>
+        </p>
+        <div class="social-links">
+          <a href=""><i class="fab fa-github fa-lg"></i></a>
+          <a href=""> <i class="fab fa-twitter fa-lg"></i></a>
+          <a href=""><i class="fab fa-linkedin fa-lg"></i></a>
         </div>
-    </footer> -->
+      </footer>
+    </main>
     <script src="/index.js"></script>
     <script
       src="https://kit.fontawesome.com/617c60ee1d.js"

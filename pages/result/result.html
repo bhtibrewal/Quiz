@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="https://artsyui.netlify.app/src/artsyUI.css" />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="result.css" />
+    <link rel="stylesheet" href="../question-page/ques-page.css" />
     <title>StarBiz</title>
   </head>
   <body class="quiz-body">
     <header class="quiz-header flex-align-center">
-      <a href="/index.html"><div class="logo">StarBiz</div></a>
+      <!-- logo -->
+      <a href="/index.html"><h2 class="logo">StarBiz</h2></a>
+      <!-- nav -->
       <div class="right-side flex-align-center">
-        <i class="fab fa-github"></i>
-        <i class="far fa-user"></i>
-        <i class="fas fa-moon mode-btn"></i>
+        <i class="fab fa-github fa-lg"></i>
+        <a title="github" href="/pages/login/login.html"
+          ><i class="far fa-user fa-lg"></i
+        ></a>
+        <i class="fas fa-cloud-moon fa-lg mode-btn"></i>
       </div>
     </header>
     <main class="quiz-main">
@@ -23,47 +28,68 @@
         <div class="trophy-img">
           <img src="/assets/trophy.svg" />
         </div>
-        <h2>Well Played</h2>
+        <h2>Well Played!!</h2>
       </section>
-      <section class="container score-card flex-col">
-        <p class="body-l"><i class="fa-solid fa-star fa-xs primary"></i>Score</p>
-        <h2 class="primary">300</h2>
+
+      <!--Score Card  -->
+      <div class="container score-card flex-col">
+        <p class="body-l secondary-color-text">
+          <i class="fa-solid fa-star fa-xs m-r primary"></i>
+          <b>Score</b>
+        </p>
+        <h2 class="primary-text">300pts</h2>
         <div class="flex-align-center score-sec">
-          <div class="flex-col score-col">
+          <div class="flex-col score-col secondary-color-text">
             <span>Total</span>
-            <p>7</p>
+            <p><b>20</b></p>
           </div>
           <div class="flex-col score-col">
-            <span><i class="fa-solid fa-check"></i>Right</span>
-            <p>5</p>
+            <span><i class="fa-solid fa-check m-r"></i>Right</span>
+            <p><b>15</b></p>
           </div>
           <div class="flex-col score-col">
-            <span><i class="fa-solid fa-xmark"></i>Wrong</span>
-            <p>2</p>
+            <span><i class="fa-solid fa-xmark m-r"></i>Wrong</span>
+            <p><b>5</b></p>
           </div>
         </div>
-      </section>
-      <section class="section">
+        <div class="score_card-buttons">
+          <button class="btn btn-primary">Take another quiz</button>
+          <button class="btn outline-btn-secondary">Home</button>
+        </div>
+      </div>
+
+      <section class="section flex-col result_ans-sec">
         <div class="question-sec flex-col">
+          <p class="body-l"><strong>Question 1:</strong></p>
           <p class="body-l">
-              <div><strong>Question 1:</strong></div>
-             In The Force Awakens, which character has Darth Vader’s damaged
+            In The Force Awakens, which character has Darth Vader’s damaged
             mask?
           </p>
           <div class="options">
-            <div class="fa-solid right-op">
-              <button disabled class="btn btn-secondary ">A: Option 1</button>
-            </div>
-            <div class="fa-solid wrong-op">
-              <button class="btn btn-secondary ">B: Option 2</button>
-            </div>
-            <div class="fa-solid">
-                <button class="btn btn-secondary">C: Option 3</button>
-            </div>
-            <div class="fa-solid">
-                <button class="btn btn-secondary">D: Option 4</button>
-            </div>
-             </div>
+            <button class="btn btn-secondary right-op">A: Option 1</button>
+
+            <button class="btn btn-secondary wrong-op">B: Option 2</button>
+
+            <button class="btn btn-secondary">C: Option 3</button>
+
+            <button class="btn btn-secondary">D: Option 4</button>
+          </div>
+        </div>
+        <div class="question-sec flex-col">
+          <p class="body-l"><strong>Question 2:</strong></p>
+          <p class="body-l">
+            In The Force Awakens, which character has Darth Vader’s damaged
+            mask?
+          </p>
+          <div class="options">
+            <button class="btn btn-secondary">A: Option 1</button>
+
+            <button class="btn btn-secondary">B: Option 2</button>
+
+            <button class="btn btn-secondary right-op">C: Option 3</button>
+
+            <button class="btn btn-secondary">D: Option 4</button>
+          </div>
         </div>
       </section>
     </main>

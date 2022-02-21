@@ -3,65 +3,36 @@
   color: var(--light-text);
   padding-bottom: 5rem;
 }
+.trophy-img {
+  max-width: 20rem;
+  width: 50%;
+}
 .score-card {
   width: fit-content;
   margin: auto;
   margin-top: -3rem;
 }
-.trophy-img {
-  max-width: 20rem;
-  width: 50%;
-}
 .score-col {
-  padding: 1rem;
+  padding: 1rem 3rem;
   border-right: 1px solid var(--primary-color);
+}
+.score-col:nth-child(2) {
+   color: var(--right-option);
 }
 .score-col:last-child {
   border: none;
-}
-.question-sec {
-  padding: 2rem;
-  background: var(--light-bg);
-  width: 80%;
-  margin: auto;
-}
-.question-sec p {
-  padding: 1rem 0;
-}
-.options {
-  padding: 2rem;
-  max-width: 30rem;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.options .btn-secondary {
-  min-height: 5rem;
-  width: 100%;
-}
-.right-op,
-.wrong-op {
-  position: relative;
-}
-.wrong-op .btn-secondary {
-  background: var(--wrong-option);
-}
-.right-op .btn-secondary {
-  background: var(--right-option);
-}
-.right-op:after,
-.wrong-op:after {
-  padding: 2rem;
-  position: absolute;
-  top: 0;
-  right: -11rem;
-}
-.right-op:after {
-  content: "\f00c right";
-  color: var(--right-option);
-}
-.wrong-op:after {
-  content: " \f00d wrong";
   color: var(--wrong-option);
+}
+.result_ans-sec{
+  gap:2rem;
+}
+.score_card-buttons{
+  padding:2rem 3rem 0;
+  display:flex;
+  flex-direction:column;
+  align-self:stretch;
+  gap:1rem;
+}
+.score_card-buttons .btn{
+  padding:1rem;
 }

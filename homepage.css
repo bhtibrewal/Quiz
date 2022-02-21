@@ -9,6 +9,9 @@
 .categories-sec .card:hover {
   transform: scale(1.05);
 }
+.take-quiz-btn{
+  margin-left:auto;
+}
 
 /* leader section */
 .leaderboard-sec {
