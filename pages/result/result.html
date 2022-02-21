@@ -13,12 +13,14 @@
   <body class="quiz-body">
     <header class="quiz-header flex-align-center">
       <!-- logo -->
-      <a href="/index.html"><div class="logo">StarBiz</div></a>
+      <a href="/index.html"><h2 class="logo">StarBiz</h2></a>
       <!-- nav -->
       <div class="right-side flex-align-center">
-          <i class="fab fa-github fa-lg"></i>
-          <a href="/pages/login/login.html"><i class="far fa-user fa-lg"></i></a>
-          <i class="fas fa-moon fa-lg mode-btn"></i>
+        <i class="fab fa-github fa-lg"></i>
+        <a title="github" href="/pages/login/login.html"
+          ><i class="far fa-user fa-lg"></i
+        ></a>
+        <i class="fas fa-cloud-moon fa-lg mode-btn"></i>
       </div>
     </header>
     <main class="quiz-main">
@@ -31,22 +33,22 @@
 
       <!--Score Card  -->
       <div class="container score-card flex-col">
-        <p class="body-l">
-          <i class="fa-solid fa-star fa-xs primary"></i>
+        <p class="body-l secondary-color-text">
+          <i class="fa-solid fa-star fa-xs m-r primary"></i>
           <b>Score</b>
         </p>
-        <h2 class="primary">300pts</h2>
+        <h2 class="primary-text">300pts</h2>
         <div class="flex-align-center score-sec">
-          <div class="flex-col score-col">
+          <div class="flex-col score-col secondary-color-text">
             <span>Total</span>
             <p><b>20</b></p>
           </div>
           <div class="flex-col score-col">
-            <span><i class="fa-solid fa-check"></i>Right</span>
+            <span><i class="fa-solid fa-check m-r"></i>Right</span>
             <p><b>15</b></p>
           </div>
           <div class="flex-col score-col">
-            <span><i class="fa-solid fa-xmark"></i>Wrong</span>
+            <span><i class="fa-solid fa-xmark m-r"></i>Wrong</span>
             <p><b>5</b></p>
           </div>
         </div>
@@ -64,13 +66,9 @@
             mask?
           </p>
           <div class="options">
-            <button class="btn btn-secondary right-op">
-              A: Option 1
-            </button>
+            <button class="btn btn-secondary right-op">A: Option 1</button>
 
-            <button class="btn btn-secondary wrong-op">
-              B: Option 2
-            </button>
+            <button class="btn btn-secondary wrong-op">B: Option 2</button>
 
             <button class="btn btn-secondary">C: Option 3</button>
 
@@ -84,15 +82,11 @@
             mask?
           </p>
           <div class="options">
-            <button class="btn btn-secondary">
-             A: Option 1
-            </button>
+            <button class="btn btn-secondary">A: Option 1</button>
 
             <button class="btn btn-secondary">B: Option 2</button>
 
-            <button class="btn btn-secondary right-op">
-              C: Option 3
-            </button>
+            <button class="btn btn-secondary right-op">C: Option 3</button>
 
             <button class="btn btn-secondary">D: Option 4</button>
           </div>

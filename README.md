@@ -1,7 +1,53 @@
-# StarBIZ Quiz
-- Landing Page 
-- Categories for quiz
-https://user-images.githubusercontent.com/42600164/154273139-0ab786da-23d5-4d29-a654-a2e037744198.png
-https://user-images.githubusercontent.com/42600164/154273268-403f604a-43b5-4fe1-9c7b-90761ad28824.png
-https://user-images.githubusercontent.com/42600164/154273580-1fc1baf8-d6e4-43d0-b2cc-70216ff33bf6.png
-https://user-images.githubusercontent.com/42600164/154273627-94128a20-f21b-4110-86b8-ceb02892ede4.png
+<link rel="stylesheet" href="https://artsyui.netlify.app/src/artsyUI.css" />
+<style>
+	html{
+		font-size:72.5%;
+	}
+    body{
+        background:#272a2c;
+    }
+	a{
+		text-decoration:underline;
+	}
+</style>
+
+<h1 class="primary-text" align=center>StarBiz</h1>
+<h3 class="secondary-text-color" align=center>by Bhavika Tibrewal</h3>
+
+Live Preview : [StarBiz](https://starbiz.netlify.app/)
+
+<h2 class="secondary-text-color">Pages</h2>
+
+- [Home Page](https://starbiz.netlify.app/)
+    - Categories Section
+    - Leaderboard
+- [Rules Page](https://starbiz.netlify.app/pages/rules-page/rules-page.html)
+- [ Questions Page](https://starbiz.netlify.app/pages/question-page/ques-page.html)
+- [Result Page](https://starbiz.netlify.app/pages/result/result.html)
+    - Score
+    - Answers
+- [Login](https://starbiz.netlify.app/pages/login/login.html)
+
+<h2 class="secondary-text-color">Features</h2>
+
+- Responsive for both Web and Mobile devices.
+- Dark and Light Mode toogle.
+
+
+### Home Page
+![image](https://user-images.githubusercontent.com/42600164/154896416-f2f58bb6-ca19-4f94-be2c-c92406b6a323.png)
+
+### Rules Page
+![image](https://user-images.githubusercontent.com/42600164/154897951-2bff09e4-1302-46ee-949c-1242401a5f29.png)
+
+### Questions Page
+![image](https://user-images.githubusercontent.com/42600164/154898101-498a3964-d298-4088-87fd-4b314dedae27.png)
+
+### Result Page
+![image](https://user-images.githubusercontent.com/42600164/154904802-948c2fa4-8cea-4ae5-9255-84e896be8bd2.png)
+
+<h2 class="secondary-text-color">TeckStack</h2
+
+- Html
+- CSS
+- Javascript

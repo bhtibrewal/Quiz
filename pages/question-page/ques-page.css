@@ -7,6 +7,16 @@
 .question-sec p {
   padding: 1rem 0;
 }
+.ques-head{
+  align-self:stretch;
+}
+.ques-head p{
+  margin:auto;
+}
+.hint-btn{
+  justify-self:flex-end;
+  color:var(--primary-color);
+}
 .options {
   padding: 1rem;
   max-width: 30rem;

@@ -11,7 +11,7 @@
     font-size:40%;
   }
 }
-i {
+i.m-r {
   margin-right: 0.5rem;
 }
 .grid-3 {
@@ -51,14 +51,7 @@ color: var(--primary-color)
 }
 .quiz-main {
   grid-area: main;
-  overflow: scroll;
-}
-main::--webkit-scrollbar {
-  width: 0.5rem;
-  height: 1rem;
-}
-main::--webkit-scrollbar-thumb {
-  background: var(--primary-color);
+  overflow-y: scroll;
 }
 .quiz-footer {
   grid-area: footer;
@@ -89,16 +82,9 @@ main::--webkit-scrollbar-thumb {
   border-radius: 1rem;
   background: var(--light-bg);
 }
-.primary {
-  color: var(--primary-color);
-}
 .heart{
   color:var(--wrong-option);
 }
 .checkbox-text{
  margin-left:1rem;
-}
-/* component */
-.btn .btn-center{
-  margin:auto;
 }
