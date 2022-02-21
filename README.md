@@ -1,22 +1,9 @@
-<link rel="stylesheet" href="https://artsyui.netlify.app/src/artsyUI.css" />
-<style>
-	html{
-		font-size:72.5%;
-	}
-    body{
-        background:#272a2c;
-    }
-	a{
-		text-decoration:underline;
-	}
-</style>
-
-<h1 class="primary-text" align=center>StarBiz</h1>
-<h3 class="secondary-text-color" align=center>by Bhavika Tibrewal</h3>
+<h1 align=center>StarBiz</h1>
+<h3 align=center>by Bhavika Tibrewal</h3>
 
 Live Preview : [StarBiz](https://starbiz.netlify.app/)
 
-<h2 class="secondary-text-color">Pages</h2>
+<h2 >Pages</h2>
 
 - [Home Page](https://starbiz.netlify.app/)
     - Categories Section
@@ -28,7 +15,7 @@ Live Preview : [StarBiz](https://starbiz.netlify.app/)
     - Answers
 - [Login](https://starbiz.netlify.app/pages/login/login.html)
 
-<h2 class="secondary-text-color">Features</h2>
+<h2 >Features</h2>
 
 - Responsive for both Web and Mobile devices.
 - Dark and Light Mode toogle.
